@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html From</title>
+</head>
+<body>
+    <h1 align="center">Details Of User</h1>
+    <hr>
+    <h2 align="center">Personal Information</h2>
+    <hr>
+            <p>
+                <label for="User Name">1.User Name:-</label>
+                <input type="text" name="FirstName" id="FirstName"  required>
+            </p>
+            <p>
+                <label for="Mail Id">2.Mail ID:-</label>
+                <input type="text" name="Mail ID" id="Mail ID" autocomplete="on" required>
+            </p>
+            <p>
+                <label for="Date Of Birth">3.Date Of Birth:-</label>
+                <input type="date" name="DateOfBirth" id="DateOfBirth" required>
+            </p>
+    <hr><h2 align="center">Education Details</h2><hr>
+            <p>
+                <label for="College">4.College:-</label>
+                <select name="college" id="college">
+                    <option>College Name</option>
+                    <option >Aditya college of engineering</option>
+                    <option >Aditya college of engineering and technology</option>
+                    <option >Aditya engineering college </option>
+                    
+                </select>
+
+            </p>
+            <P>
+                <label for="Year Of studying">5.Year of Studying</label>
+                <input type="number"  min="1" max="4" step="1" value="0">
+            </P>
+            <p>
+                <label >6.Branch:-</label>
+                <input type="text"  list="Branch_List" placeholder="Branch Name" >
+                <datalist id="Branch_List">
+                    <option value="ECE">
+                    <option value="CSE">
+                    <option value="CIVIL">
+                    <option value="MECH">
+                    <option value="AGRI">
+                    <option value="others"></option>
+                </datalist>
+            </p>
+            <p>
+                <label>7.Known languages:-</label>
+                        
+                            <ul>
+                                <input type="Radio">C</label>
+                            </ul>
+                        
+                            <ul>
+                                <input type="Radio">Python</label>
+                            </ul>
+                            <ul>
+                                <input type="Radio">Java</label>
+                            </ul>
+                             <ul>
+                                <input type="Radio">C++</label>
+                            </ul>
+            </p>
+            <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSn5MWP60lxS1PBZtjkMS64ehg9ZtPrjUQmQA&usqp=CAU">Submit</a>
+</html>
